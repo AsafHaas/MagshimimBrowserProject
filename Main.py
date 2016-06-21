@@ -97,7 +97,6 @@ def Make_GET(URL):
 			seq=syn_ack_pack[TCP].ack, ack=syn_ack_pack[TCP].seq + 1)
 	
 	send(ack_pack)
-	# TODO: SEND ACTUALL GET!!!
 
 def Update_History(URL):
 	"""
